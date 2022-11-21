@@ -8,7 +8,7 @@ import pandas as pd
 class Rossmann(object):
     
     def __init__(self):
-        self.home_path = ''
+        self.home_path = 'webapp_api/'
         self.competition_distance_rescaler   = pickle.load(open(self.home_path + 'parameters/competition_distance_rescaler.pkl', 'rb'))
         self.competition_time_month_rescaler = pickle.load(open(self.home_path + 'parameters/competition_time_month_rescaler.pkl', 'rb'))
         self.promo_since_week_rescaler       = pickle.load(open(self.home_path + 'parameters/promo_since_week_rescaler.pkl', 'rb'))
