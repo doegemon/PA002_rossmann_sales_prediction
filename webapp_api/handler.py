@@ -5,7 +5,7 @@ from flask             import Flask, request, Response
 from rossmann.Rossmann import Rossmann
 
 # Carregando o modelo de ML
-model = pickle.load(open('webapp_api/model/model_rossmann.pkl', 'rb'))
+model = pickle.load(open('model/model_rossmann.pkl', 'rb'))
 
 # Inicializando a API
 app = Flask(__name__)
