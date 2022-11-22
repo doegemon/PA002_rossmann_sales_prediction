@@ -55,7 +55,7 @@ def load_data(store_number):
 def predict(data):
 
   # Request na API
-  url = ''
+  url = 'https://rossmann-handler-api.onrender.com/rossmann/predict'
   header = {'Content-type': 'application/json'}
   data = data
 
