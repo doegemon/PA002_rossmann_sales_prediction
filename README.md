@@ -24,16 +24,16 @@ O Modelo de Machine Learning adotado previu um cenário-base com uma receita bru
 |      date       |data                                      |
 |    sales        |o volume financeiro de vendas no dia                                             |
 |    customers    |o número de clientes no dia                                                      |
-|   open          |indicador se a loja estava aberta ou não (0 = fechada | 1 = aberta)                    |
+|   open          |indicador se a loja estava aberta ou não (0 = fechada, 1 = aberta)                    |
 |    promo        |indica se a loja estava com alguma promoção no dia               |
-|    state_holiday|indica se era feriado estadual/nacional no dia (a = feriado público | b = Páscoa | c = Natal | 0 = nenhum)                  |
+|    state_holiday|indica se era feriado estadual/nacional no dia (a = feriado público, b = Páscoa, c = Natal, 0 = nenhum)                  |
 |   school_holiday|indica se a loja no dia foi afetada pelo fechamento das escolas públicas               |
 |      store_type |indica o tipo da loja (4 tipos: a, b, c, d) |
-|    assortment   |descreve o nível de mix de produtos (a = básico | b = extra | c = extenso) |
+|    assortment   |descreve o nível de mix de produtos (a = básico, b = extra, c = extenso) |
 | competition_distance |distância em metros para a loja do concorrente mais próxima |
 |  competition_open_since_month     |mês que a loja do concorrente mais próxima foi aberta |
 |  competition_open_since_year  |ano que a loja do concorrente mais próxima foi aberta| 
-|    promo2       |promoção contínua e consecutiva para algumas lojas (0 = loja não participou | 1 = loja participou)                    |
+|    promo2       |promoção contínua e consecutiva para algumas lojas (0 = loja não participou, 1 = loja participou)                    |
 |  promo2_since_week   | indica a semana do ano que a loja começou a participar da promo2                     |
 |     promo2_since_year     |indica o ano que a loja começou a participar da promo2 (complementar à promo2_since_week)    |
 |       promo_interval       |descreve os intervalos consecutivos que a promo2 começou, indicando os meses que a promoção começou novamente (Ex.: "Feb,May,Aug,Nov" significa que cada intervalo começou em Fevereiro, Maio, Agosto e Novembro em determinado ano para determinada loja)                           |
